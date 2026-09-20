@@ -257,3 +257,28 @@ body::after {
 #contact .form-control::placeholder {
   color: rgba(255, 255, 255, 0.4);
 }
+
+/* Website Navigation */
+.website-nav {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    text-align: center;
+    padding: 8px 10px;
+    background-color: rgba(24, 26, 32, 0.85);
+    backdrop-filter: blur(10px);
+}
+
+.website-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.website-nav a:hover {
+    color: #f5c542;
+}
