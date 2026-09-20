@@ -257,19 +257,19 @@ body::after {
 #contact .form-control::placeholder {
   color: rgba(255, 255, 255, 0.4);
 }
-
+/* Website Navigation */
 .website-nav {
-    width: 100%;
+    margin-top: 70px;
     padding: 10px;
-    margin-top: 76px;
     text-align: center;
-    background-color: #181a20;
+    background-color: rgba(24, 26, 32, 0.95);
 }
 
 .website-nav a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
-    margin: 0 12px;
+    margin: 0 15px;
+    font-size: 14px;
     font-weight: 500;
 }
 
