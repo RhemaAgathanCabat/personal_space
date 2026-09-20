@@ -259,20 +259,16 @@ body::after {
 }
 
 /* Website Navigation */
+.web/* Website Links */
 .website-nav {
-    position: fixed;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    z-index: 999;
+    margin-top: 70px;
+    padding: 12px;
     text-align: center;
-    padding: 8px 10px;
-    background-color: rgba(24, 26, 32, 0.85);
-    backdrop-filter: blur(10px);
+    background-color: rgba(24, 26, 32, 0.95);
 }
 
 .website-nav a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
     margin: 0 15px;
     font-size: 14px;
