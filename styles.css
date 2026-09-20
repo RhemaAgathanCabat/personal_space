@@ -257,3 +257,22 @@ body::after {
 #contact .form-control::placeholder {
   color: rgba(255, 255, 255, 0.4);
 }
+
+.navigation {
+    background-color: #106a69;
+    padding: 15px;
+    text-align: center;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    background-color: #008080;
+    border-radius: 5px;
+}
