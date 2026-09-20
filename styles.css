@@ -258,20 +258,18 @@ body::after {
   color: rgba(255, 255, 255, 0.4);
 }
 
-/* Website Navigation */
-.web/* Website Links */
 .website-nav {
-    margin-top: 70px;
-    padding: 12px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 76px;
     text-align: center;
-    background-color: rgba(24, 26, 32, 0.95);
+    background-color: #181a20;
 }
 
 .website-nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
-    font-size: 14px;
+    margin: 0 12px;
     font-weight: 500;
 }
 
